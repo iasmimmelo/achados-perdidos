@@ -9,7 +9,6 @@ body {
   min-height: 100vh;
 }
 
-/* Esconde logo e título soltos fora do formulário */
 .container > .logo,
 .container > h1,
 .container > h2 {
@@ -229,7 +228,7 @@ body {
   width: 100%;
   border-radius: 8px;
   cursor: pointer;
-  margin-top: 10px; /* espaço abaixo do botão salvar */
+  margin-top: 10px;
   font-size: 1rem;
   transition: 0.3s;
 }
