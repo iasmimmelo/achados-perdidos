@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { auth } from "../firebase";
 import { signInWithEmailAndPassword, createUserWithEmailAndPassword } from "firebase/auth";
-import logo from "../assets/logo.png"; // logo do projeto
+import logo from "../assets/logo.png";
 
 export default function Login({ onLogin }) {
   const [email, setEmail] = useState("");
